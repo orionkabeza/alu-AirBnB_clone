@@ -1,0 +1,70 @@
+{
+    "Amenity.26c16e53-a191-41e5-ac61-03e0cd98651e": {
+        "__class__": "Amenity",
+        "created_at": "2026-09-09T14:45:20.863704",
+        "id": "26c16e53-a191-41e5-ac61-03e0cd98651e",
+        "name": "Swimming Pool",
+        "updated_at": "2026-09-09T14:45:20.863704"
+    },
+    "Amenity.3454fae1-35a7-46a4-a4f7-bbd0b5aa47cc": {
+        "__class__": "Amenity",
+        "created_at": "2026-09-09T14:45:20.863704",
+        "id": "3454fae1-35a7-46a4-a4f7-bbd0b5aa47cc",
+        "name": "Wifi",
+        "updated_at": "2026-09-09T14:45:20.863704"
+    },
+    "City.d92c552b-65a9-4d3f-87f8-0332fcde905e": {
+        "__class__": "City",
+        "created_at": "2026-09-09T14:45:20.863704",
+        "id": "d92c552b-65a9-4d3f-87f8-0332fcde905e",
+        "name": "San Francisco",
+        "state_id": "e95f1791-c571-482c-b332-c919471575c1",
+        "updated_at": "2026-09-09T14:45:20.863704"
+    },
+    "Place.fe2b9e6b-867c-4cb9-8816-f20090be6536": {
+        "__class__": "Place",
+        "amenity_ids": [
+            "3454fae1-35a7-46a4-a4f7-bbd0b5aa47cc",
+            "26c16e53-a191-41e5-ac61-03e0cd98651e"
+        ],
+        "city_id": "d92c552b-65a9-4d3f-87f8-0332fcde905e",
+        "created_at": "2026-09-09T14:45:20.863704",
+        "description": "A cozy loft in the heart of the city.",
+        "id": "fe2b9e6b-867c-4cb9-8816-f20090be6536",
+        "latitude": 37.773972,
+        "longitude": -122.431297,
+        "max_guest": 3,
+        "name": "Cozy Loft",
+        "number_bathrooms": 1,
+        "number_rooms": 2,
+        "price_by_night": 120,
+        "updated_at": "2026-09-09T14:45:20.863704",
+        "user_id": "cad8bef2-ca53-494b-8c06-cd1f8aafd032"
+    },
+    "Review.260d6a27-fd81-46fb-a67b-d2c8e65bb98d": {
+        "__class__": "Review",
+        "created_at": "2026-09-09T14:45:20.863704",
+        "id": "260d6a27-fd81-46fb-a67b-d2c8e65bb98d",
+        "place_id": "fe2b9e6b-867c-4cb9-8816-f20090be6536",
+        "text": "Great place, would stay again!",
+        "updated_at": "2026-09-09T14:45:20.863704",
+        "user_id": "cad8bef2-ca53-494b-8c06-cd1f8aafd032"
+    },
+    "State.e95f1791-c571-482c-b332-c919471575c1": {
+        "__class__": "State",
+        "created_at": "2026-09-09T14:45:20.862704",
+        "id": "e95f1791-c571-482c-b332-c919471575c1",
+        "name": "California",
+        "updated_at": "2026-09-09T14:45:20.862704"
+    },
+    "User.cad8bef2-ca53-494b-8c06-cd1f8aafd032": {
+        "__class__": "User",
+        "created_at": "2026-09-09T14:45:20.863704",
+        "email": "betty@holberton.com",
+        "first_name": "Betty",
+        "id": "cad8bef2-ca53-494b-8c06-cd1f8aafd032",
+        "last_name": "Holberton",
+        "password": "root",
+        "updated_at": "2026-09-09T14:45:20.863704"
+    }
+}
